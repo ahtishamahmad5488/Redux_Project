@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
   productContainer: {
     marginBottom: 20,
     alignItems: 'center',
-    borderBottomColor: 'white',
+    borderBottomColor: 'orange',
     borderBottomWidth: 2,
     padding: 10,
     margin: 80,
@@ -58,6 +58,7 @@ const styles = StyleSheet.create({
   },
   productText: {
     fontSize: 24,
+    color: 'black',
   },
   productImage: {
     height: 100,
