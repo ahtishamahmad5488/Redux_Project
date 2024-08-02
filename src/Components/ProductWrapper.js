@@ -1,9 +1,12 @@
-import {View, ScrollView} from 'react-native';
+import {View, ScrollView, Button} from 'react-native';
 import React from 'react';
 import Header from './Header';
 import Product from './Product';
+import {useNavigation} from '@react-navigation/native';
 
 const ProductWrapper = () => {
+  const navigation = useNavigation();
+
   const products = [
     {
       id: 1,
@@ -43,6 +46,12 @@ const ProductWrapper = () => {
   ];
   return (
     <View>
+      <Button
+        title="Go to User List"
+        onPress={() => {
+          navigation.navigate('User');
+        }}
+      />
       <Header />
       <ScrollView>
         {products.map((item, index) => (
