@@ -4,8 +4,10 @@
 </p>
 <h2>Features
 </h2>
-<b>View Products</b>: Display a list of products.<be/>
-<b>Add to Cart</b>: Add selected products to the shopping cart.<be/>
+<b>View Products</b>: Display a list of products.
+<be/>
+<b>Add to Cart</b>: Add selected products to the shopping cart.
+<be/>
 <b>Remove from Cart</b>: Remove products from the shopping cart.
 
 ------------------------
