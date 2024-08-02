@@ -5,9 +5,9 @@
 <h2>Features
 </h2>
 <b>View Products</b>: Display a list of products.
-<be/>
+<br/>
 <b>Add to Cart</b>: Add selected products to the shopping cart.
-<be/>
+<br/>
 <b>Remove from Cart</b>: Remove products from the shopping cart.
 
 ------------------------
