@@ -1,3 +1,13 @@
+<h2>Simple Redux Shopping Cart
+</h2>
+<p>This is a simple React Native project demonstrating the use of Redux for managing the state of a shopping cart. The UI allows users to view products, add products to the cart, and remove products from the cart.
+</p>
+<h3>Features
+</h3>
+<b>View Products</b>: Display a list of products.
+<b>Add to Cart</b>: Add selected products to the shopping cart.
+<b>Remove from Cart</b>: Remove products from the shopping cart.
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
