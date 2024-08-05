@@ -1,18 +1,23 @@
 import {View, Text} from 'react-native';
+import {getUserList} from './Redux/action';
+import {useEffect} from 'react';
+import {useDispatch, useSelector} from 'react-redux';
 
 const UserList = () => {
+  const dispatch = useDispatch();
+  const userList = useSelector(state => state.reducer);
+  useEffect(() => {
+    dispatch(getUserList());
+  }, []);
+  console.warn('In Component: ', userList);
+
   return (
     <View>
-      <Text
-        style={{
-          color: 'black',
-          fontSize: 24,
-          textAlign: 'center',
-          paddingTop: 10,
-          fontWeight: 'bold',
-        }}>
-        User List Screen
-      </Text>
+      {userList.length
+        ? userList.map(item => (
+            <Text style={{fontSize: 22, color: 'black'}}>{item.firstName}</Text>
+          ))
+        : null}
     </View>
   );
 };
